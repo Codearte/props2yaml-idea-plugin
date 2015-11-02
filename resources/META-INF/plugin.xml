@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>io.codearte.props2yaml</id>
   <name>Properties to YAML Converter</name>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <vendor email="oss@codearte.io" url="http://www.codearte.io">Codearte</vendor>
 
   <description><![CDATA[
@@ -9,9 +9,9 @@
   ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
+      1.0.0 Initial version<br/>
+      1.0.1 Support for nested elements
+  ]]>
   </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
