@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>io.codearte.props2yaml</id>
   <name>Properties to YAML Converter</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <vendor email="oss@codearte.io" url="http://www.codearte.io">Codearte</vendor>
 
   <description><![CDATA[
@@ -11,6 +11,7 @@
   <change-notes><![CDATA[
       1.0.0 Initial version<br/>
       1.0.1 Support for nested elements
+      1.0.2 Add context menu entry
   ]]>
   </change-notes>
 
@@ -26,6 +27,7 @@
     <action id="io.codearte.props2yaml.ConvertAction" class="io.codearte.props2yaml.ConvertAction"
             text="Convert Properties to YAML" description="Convert properties file to YAML">
       <add-to-group group-id="CodeMenu" anchor="last"/>
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
     </action>
   </actions>
 
